@@ -1,0 +1,30 @@
+:global {
+  .DraftEditor-root {
+    background: #fff;
+    border: 1px solid #ddd;
+    cursor: text;
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .public-DraftEditor-content {
+    min-height: 150px;
+  }
+}
+
+.controls {
+  display: inline-block;
+}
+
+.styleButton {
+  background-color: #f7f7f7;
+  border: 1px solid #ebebeb;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.styleButtonActive {
+  background-color: green;
+  composes: styleButton;
+}
